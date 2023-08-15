@@ -1,0 +1,13 @@
+.para{
+    color: rgb(58, 5, 143);
+}
+#basic{
+    background-color:cadetblue;
+}
+.new{
+    text-transform:lowercase;
+    text-shadow:1cm;
+}
+#udn{
+    background-color:chartreuse;
+}
