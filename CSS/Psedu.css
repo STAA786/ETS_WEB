@@ -1,0 +1,55 @@
+.demo::selection{
+background-color: aqua;
+color: blueviolet;
+}
+.demo::first-letter{
+    font-size: 20px;
+}
+
+.demo::first-line{
+    color:red
+}
+ol{
+    color: aquamarine;
+}
+ol:hover{
+    color: blueviolet;
+}
+li::marker{
+    color:red;
+}
+h1::before{
+/* content:"$"; */
+content: "";
+border: solid;
+color:brown;
+font-size: 50px;
+}
+h1::after{
+    /* content: "@"; */
+    content: "";
+    border: dashed;
+    color: chocolate;
+    font-size:50px ;
+}
+a{
+    color: bisque;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:azure
+}
+a:visited{
+    color:darkblue;
+}
+input{
+    background-color: cornflowerblue;
+}
+/* input:disabled{
+    background-color: brown;
+} */
+input:focus{
+    background-color: blue;
+}

@@ -1,0 +1,36 @@
+/* h1,h2:first-child{
+    background-color: aqua;
+} */
+h1,h2:first-of-type{
+    background-color: aqua;
+}
+h3:last-child{
+    background-color: brown;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+
+}
+th,td{
+    border-bottom: 2px solid crimson;
+}
+tr:nth-child(odd){
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color:cadetblue;
+}
+tr:first-child{
+    background-color:crimson;
+    color:bisque;
+}
+input{
+    background-color: burlywood;
+
+}
+input:required{
+    color:  aliceblue;
+    border: solid crimson 2px;
+    
+}
