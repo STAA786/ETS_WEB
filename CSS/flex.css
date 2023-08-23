@@ -1,0 +1,20 @@
+.parent{
+    background-color: rgb(101, 120, 27);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+
+    
+}
+.common{
+    width: 30%;
+    height: 100px;
+    background-color:aqua ;
+    margin: 10px;
+    text-align: center;
+    font-size: 100%;
+    color: brown;
+}
